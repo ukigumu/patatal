@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Patatal</title>
+    <link rel="icon" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/farm.css" />
+  </head>
+  <body>
+    <div id="viewport">
+      <div id="stage">
+        <img class="field" src="/art/field.png" alt="Campo de patatas al atardecer" />
+        <div id="plants"></div>
+      </div>
+    </div>
+
+    <header class="sign title-sign">
+      <p class="eyebrow">Campo de Grok Bots</p>
+      <h1>Patatal</h1>
+      <p class="tag">El espantapájaros señala. Las patatas trabajan.</p>
+    </header>
+
+    <aside class="sign roster-sign" id="roster-wrap">
+      <button type="button" id="roster-toggle" aria-expanded="true">Vecinos del surco</button>
+      <ol id="roster"></ol>
+    </aside>
+
+    <div class="sign hover-plaque" id="plaque" hidden>
+      <div class="portrait" id="portrait"></div>
+      <div class="plaque-copy">
+        <p class="plaque-kind" id="plaque-kind"></p>
+        <p class="plaque-name" id="plaque-name"></p>
+        <p class="plaque-en" id="plaque-en"></p>
+      </div>
+    </div>
+
+    <p class="sign toast" id="toast" hidden></p>
+    <p class="sign status" id="status">El campo está quieto.</p>
+
+    <script type="module" src="/farm.js"></script>
+  </body>
+</html>
