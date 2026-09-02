@@ -1,8 +1,8 @@
 # Patatal
 
-Patatal is a potato-field botvillage. The farm is a Stardew Valley-style pixel painting you open in a browser. The scarecrow is the orchestrator. Every other Grok Bot is a potato in the surco.
+**Potato-field botvillage** — a browser farm where each Grok Bot is a potato in the surco and the scarecrow is the orchestrator. Click a plant to ping that agent; the field stays local unless you wire webhooks.
 
-This field is original work. It is not an Animal Crossing island and it is not a poteto clone.
+Original work. Not an Animal Crossing island. Not a poteto clone.
 
 ## What you see
 
