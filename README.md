@@ -1,6 +1,6 @@
 # Patatal
 
-**Potato-field botvillage** — a browser farm where each Grok Bot is a potato in the surco and the scarecrow is the orchestrator. Click a plant to ping that agent; the field stays local unless you wire webhooks.
+**Potato-field botvillage** - a browser farm where each Grok Bot is a potato in the surco and the scarecrow is the orchestrator. Click a plant to ping that agent; the field stays local unless you wire webhooks.
 
 Original work. Not an Animal Crossing island. Not a poteto clone.
 
@@ -53,7 +53,7 @@ node server.mjs
 The farm listens on `http://0.0.0.0:3847`. Open that URL and click a potato.
 
 ```bash
-npm test
+ppnpm test
 ```
 
 The test starts a throwaway webhook listener and checks that a potato ping forwards and a scarecrow ping does not.
